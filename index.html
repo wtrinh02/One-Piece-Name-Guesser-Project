@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess That One Piece Character</title>
+</head>
+
+<body>
+    
+    <div class="modal" id="modal">
+        <div class="modal-header">
+          <div class="title">Example Modal</div>
+          <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+         <img src="/assets/A0.webp" alt="test">
+        </div>
+      </div>
+      <div id="overlay"></div>
+
+
+
+
+    <div class="wrapper">
+        <h1>Guess that Named One Piece Character</h1>
+        <div class="content">
+            <input type="text" class="type-input" maxlength="1">
+            <div class="word"></div>
+            <div class="info"></div>
+            <p class="guess">Guesses: <span></span></p>
+            <p class="wrong">Missed Letters: <span></span></p>
+            <p class="hint">Hint: <span></span></p>
+           
+            <div class="buttons">
+                <button class="reset">Reset Game</button>
+                <button class="showhint">Show Hint</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="characters-db.js"></script>
+    <script src="index.js"></script>    
+</body>
+
+</html>
