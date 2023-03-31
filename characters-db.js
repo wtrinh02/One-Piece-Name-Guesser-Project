@@ -380,9 +380,9 @@ let characterList = [
         img: "./assets/Bellamy.webp",
     },
     {
-        name: "bellet",
+        name: "bellett",
         hint: "the prince of an unnamed kingdom who became a pirate and was consequently imprisoned in Impel Down, and whose gender was unwillingly inverted.",
-        img: "./assets/Bellet.webp",
+        img: "./assets/Bellett.webp",
     },
     {
         name: "bellmere",
